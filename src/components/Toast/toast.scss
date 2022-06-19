@@ -1,0 +1,33 @@
+.toat-outer{
+    // position: absolute;
+    margin-top: '10px';
+    margin-bottom: 10px;
+.toast{
+padding:16px 0px 16px 0px;
+font-family: Montserrat-light;
+font-size: 14px;
+font-weight: 300,light;
+line-height: 16px;
+letter-spacing: 0em;
+display: flex;
+gap: 8px;
+justify-content: center;
+box-shadow: 0px 8px 24px -12px #BDBDBD;
+border-radius: 4px;
+}
+}
+.center{
+    top: 10px;
+    right: 40%;
+    transition: all .5s ease-in-out; /*make it smooth*/
+  }
+.bottomright{
+    bottom: 10px;
+    right: 10px;
+    transition: all .5s ease-in-out; /*make it smooth*/
+}
+.topright{
+    top: 10px;
+    right: 10px;
+    transition: all .5s ease-in-out; /*make it smooth*/
+}
