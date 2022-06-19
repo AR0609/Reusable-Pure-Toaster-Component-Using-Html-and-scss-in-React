@@ -13,7 +13,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
+# Reusable-Pure-Toaster-Component-Using-Html-and-scss-in-React
+before using this Toaster
+fisrt create a Usestate set default value as false
+create a button component in that onclick make a state true and send the value throught props
+they will be index.js in toast folder uncomment the line number 25 and 35 and 2 line in toast.scss
+you can send props as color=color of toast,childern=text of toast,size=size 0f toast, textcolor=textxolor of toast,timeout is timming of visible toast ,isopen is state value
+place is a props where u should place a toaster in this component we can set in three place =  topright,bottomright,center
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
